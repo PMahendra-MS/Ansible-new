@@ -1,7 +1,9 @@
 - name: ping demo
   hosts: Frontend
-  connection: Frontend
   tasks:
+  - name: say connecting
+    ansible.builtin.debug:
+      msg: "connecting"
+
   - name: ping Frontend
-    debug:
-    msg: "connecting"
+    ansible. builtin.debug:
