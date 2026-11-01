@@ -1,6 +1,6 @@
 - name: ping demo
-  hosts: localhost
-  connection: local
+  hosts: Frontend
+  connection: Frontend
   tasks:
-  - name: ping localhost
+  - name: ping Frontend
     ping:
