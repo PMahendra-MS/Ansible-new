@@ -1,5 +1,5 @@
 - name: PYAL-1
-  host: localhost
+  host: local
   connection: local
   tasks:
   - name: PYAL-1 and Task-1
@@ -13,7 +13,7 @@
 
 
 - name: PYAL-2
-  host: localhost
+  host: local
   connection: local
   tasks:
   - name: PYAL-2 and Task-1
