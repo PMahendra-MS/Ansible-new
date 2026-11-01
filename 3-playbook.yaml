@@ -1,0 +1,26 @@
+- name: PYAL-1
+  host: localhost
+  connection: local
+  tasks:
+  - name: PYAL-1 and Task-1
+    debug:
+      msg: "Hello from PYAL-1 Task-1"
+
+
+  - name: PYAL-1 and Task-2
+    debug:
+      msg: "Hello from PYAL-1 Task-2"
+
+
+- name: PYAL-2
+  host: localhost
+  connection: local
+  tasks:
+  - name: PYAL-2 and Task-1
+    debug:
+      msg: "Hello from PYAL-2 Task-1"
+
+  
+  - name: PYAL-2 and Task-2
+    debug:
+      msg: "Hello from PYAL-2 Task-2"
