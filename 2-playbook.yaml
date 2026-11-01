@@ -1,7 +1,7 @@
 - name: demo on debug
   hosts: localhost
-  connection: localhost
+  connection: local
   tasks:
   - name: pring hello world
     ansible.builtin.debug:
-    msg: "Hello ansible...I am here to lear you"
+      msg: "Hello ansible...I am here to lear you"
