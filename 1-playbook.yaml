@@ -3,4 +3,5 @@
   connection: Frontend
   tasks:
   - name: ping Frontend
-    ping:
+    debug:
+    msg: "connecting"
