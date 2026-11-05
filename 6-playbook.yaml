@@ -14,3 +14,10 @@
       property: "10cr"
     debug:
       msg: "Hi, i got {{ property }} from my father"
+
+
+  - name: print vars
+    vars:
+      property: "1cr"
+    debug:
+      msg: "Hi family members i got the 1cr from the father this is not belongs to you is is main every thisng"
