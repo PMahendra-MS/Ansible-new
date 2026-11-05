@@ -9,3 +9,7 @@
   - name: print the vars
     debug:
       msg: "Hi, I am learning {{ course }} from {{ trainer }}, duration is {{ duration }}"
+
+  - name:
+    debug:
+      msg: "Hi Team we are not avalable today to learn {{ course }} from {{ trainer }}, duration is {{ duration }}"
